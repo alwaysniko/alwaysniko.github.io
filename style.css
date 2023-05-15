@@ -1,0 +1,51 @@
+body {
+    background-image: url('mec.jpg');
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+
+/* Style untuk layar handphone */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
